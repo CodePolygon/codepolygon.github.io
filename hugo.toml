@@ -62,9 +62,7 @@ theme = "hugo-minimal-black"
 
     [[params.home.tech]]
       label = "Podman"
-
-    [[params.home.tech]]
-      label = "Distrobox"
+      icon = "devicon-podman-plain"
 
     [[params.home.tech]]
       label = "Blender"
