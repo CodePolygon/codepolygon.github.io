@@ -1,0 +1,257 @@
+baseURL = 'https://codepolygon.github.io/'
+languageCode = 'en-us'
+title = 'CodePolygon'
+theme = "hugo-minimal-black"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON", "WebAppManifest"]
+
+[outputFormats.WebAppManifest]
+  mediaType = "application/manifest+json"
+  rel = "manifest"
+  baseName = "manifest"
+  isPlainText = true
+  notAlternative = true
+
+[params]
+  brand = "CodePolygon"
+  description = "Developer portfolio — building AI, automation, and documentary tech."
+
+  favicon = "icons/favicon.svg"
+  appleTouchIcon = "apple-touch-icon.png"
+
+  projectsIntro = "Things I've built and broken."
+  blogIntro = ""
+
+  [params.manifest]
+    themeColor = "#a855f7"
+    backgroundColor = "#000000"
+    categories = ["blog", "portfolio", "developer"]
+
+  [params.theme]
+    defaultTheme = "dark"
+
+  [params.home]
+    sections = ["hero", "now", "tech-marquee", "projects", "posts"]
+    showNowSection = true
+    showFeaturedProjects = true
+    showLatestPosts = true
+    featuredProjectsLimit = 3
+    latestPostsLimit = 3
+    projectsTitle = "Selected Work"
+    projectsSubtitle = ""
+    blogTitle = "Latest Writing"
+    blogSubtitle = ""
+    techMarqueeLabel = "Experienced In"
+
+    [[params.home.tech]]
+      label = "Python"
+      icon = "devicon-python-plain"
+
+    [[params.home.tech]]
+      label = "JavaScript"
+      icon = "devicon-javascript-plain"
+
+    [[params.home.tech]]
+      label = "Linux"
+      icon = "devicon-linux-plain"
+
+    [[params.home.tech]]
+      label = "Docker"
+      icon = "devicon-docker-plain"
+
+    [[params.home.tech]]
+      label = "Git"
+      icon = "devicon-git-plain"
+
+    [[params.home.tech]]
+      label = "HTML5"
+      icon = "devicon-html5-plain"
+
+    [[params.home.tech]]
+      label = "CSS3"
+      icon = "devicon-css3-plain"
+
+    [[params.home.techReverse]]
+      label = "Markdown"
+      icon = "devicon-markdown-original"
+
+    [[params.home.techReverse]]
+      label = "JSON"
+      icon = "devicon-json-plain"
+
+    [[params.home.techReverse]]
+      label = "YAML"
+      icon = "devicon-yaml-plain"
+
+    [[params.home.techReverse]]
+      label = "Node.js"
+      icon = "devicon-nodejs-plain"
+
+    [[params.home.techReverse]]
+      label = "Hugo"
+      icon = "devicon-hugo-plain"
+
+    [[params.home.techReverse]]
+      label = "GitHub"
+      icon = "devicon-github-original"
+
+  [params.about.alt]
+    [[params.about.alt.stats]]
+      value = "∞"
+      label = "Hours Spent"
+
+    [[params.about.alt.stats]]
+      value = "∞"
+      label = "Lines of Code"
+
+    [[params.about.alt.stats]]
+      value = "∞"
+      label = "Cups of Coffee"
+
+    [[params.about.alt.skills]]
+      label = "Python"
+      icon = "devicon-python-plain"
+
+    [[params.about.alt.skills]]
+      label = "JavaScript"
+      icon = "devicon-javascript-plain"
+
+    [[params.about.alt.skills]]
+      label = "Linux"
+      icon = "devicon-linux-plain"
+
+    [[params.about.alt.skills]]
+      label = "Docker"
+      icon = "devicon-docker-plain"
+
+    [[params.about.alt.skills]]
+      label = "Git"
+      icon = "devicon-git-plain"
+
+    [[params.about.alt.skills]]
+      label = "Node.js"
+      icon = "devicon-nodejs-plain"
+
+  [params.hero]
+    badge = "Developer & Builder"
+    title = "CodePolygon."
+    role = "Developer, builder, creator."
+    summary = "I build things — code, automation, tools, stories."
+    # avatar = "images/avatar.jpg"
+    location = "Earth, 2026"
+    focus = "Currently focused on AI tools, automation, and making tech approachable."
+    available = true
+    availableLabel = "Available"
+
+    nowLabel = "Quick Facts"
+    nowIntro = "Right now I'm:"
+    now = [
+      "Building AI-powered automation",
+      "Making developer tools that actually work",
+      "Turning complex ideas into simple things"
+    ]
+
+    [params.hero.primary]
+      label = "View Projects"
+      href = "/projects/"
+
+    [params.hero.secondary]
+      label = "Read the Blog"
+      href = "/blog/"
+
+  [params.icons]
+    useFontAwesome = true
+    useDevicon = true
+
+  [[params.social]]
+    label = "GitHub"
+    url = "https://github.com/CodePolygon"
+    icon = "fa-brands fa-github"
+
+  [[params.social]]
+    label = "Email"
+    url = "mailto:goeldabba@gmail.com"
+    icon = "fa-regular fa-envelope"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pageRef = "/"
+    url = "/"
+    weight = 1
+    identifier = "home"
+    [menu.main.params]
+      icon = "fa-solid fa-house"
+
+  [[menu.main]]
+    name = "About"
+    pageRef = "about"
+    url = "/about/"
+    weight = 2
+    identifier = "about"
+    [menu.main.params]
+      icon = "fa-regular fa-user"
+
+  [[menu.main]]
+    name = "Projects"
+    pageRef = "projects"
+    url = "/projects/"
+    weight = 3
+    identifier = "projects"
+    [menu.main.params]
+      icon = "fa-regular fa-folder-open"
+
+  [[menu.main]]
+    name = "Blog"
+    pageRef = "blog"
+    url = "/blog/"
+    weight = 4
+    identifier = "blog"
+    [menu.main.params]
+      icon = "fa-regular fa-note-sticky"
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+
+  [markup.goldmark.renderer]
+    unsafe = true
+
+  [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+
+  [markup.goldmark.extensions]
+    typographer = true
+    linkify = true
+    table = true
+    strikethrough = true
+    taskList = true
+    definitionList = true
+    footnote = true
+
+    [markup.goldmark.extensions.extras.delete]
+      enable = true
+    [markup.goldmark.extensions.extras.insert]
+      enable = true
+    [markup.goldmark.extensions.extras.mark]
+      enable = true
+
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    lineNumbersInTable = false
+    noClasses = false
+    style = "monokai"
+    tabWidth = 2
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[privacy]
+  [privacy.youtube]
+    privacyEnhanced = true
