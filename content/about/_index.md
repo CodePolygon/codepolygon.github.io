@@ -21,7 +21,7 @@ Learning **artificial intelligence**, **machine learning**, and **cybersecurity*
 
 Designing and building AI-automated pipelines for 3D asset generation, game UI production, and video editing. Combining Python scripting with Blender, Godot, and open-source tooling to create at scale.
 
-**Technologies:** Python, Blender, Godot, Docker, Podman, Distrobox, FFmpeg
+**Technologies:** Python, Blender, Godot, Docker, Podman, FFmpeg
 
 ---
 
@@ -38,7 +38,7 @@ Exploring cybersecurity fundamentals, privacy-respecting tooling, network securi
 
 **AI & Automation:** Python, Gemini, LM Studio, OmniRoute, LiteLLM, Hermes (AI agent), OpenCode, Antigravity — AI-driven workflows end to end
 **Security:** ClamAV, Metadata Cleaner, Flatseal, network tools, privacy-first Linux setup
-**Containers:** Docker, Podman, Distrobox — isolated, reproducible environments
+**Containers:** Docker, Podman — isolated, reproducible environments
 **Creative (AI-automated):** Blender, Godot, Inkscape, GIMP, Krita — all script-driven
 **Platform:** Fedora Linux, Git, GitHub
 **Video Production:** FFmpeg, OpenMontage, GPU Screen Recorder

@@ -201,7 +201,7 @@ theme = "hugo-minimal-black"
     now = [
       "Learning Python, AI & cybersecurity",
       "Building AI-automated creative pipelines",
-      "Exploring containers (Docker, Podman, Distrobox)"
+      "Exploring containers (Docker, Podman)"
     ]
 
     [params.hero.primary]
