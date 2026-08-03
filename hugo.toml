@@ -45,6 +45,32 @@ theme = "hugo-minimal-black"
     techMarqueeLabel = "Experienced In"
 
     [[params.home.tech]]
+      label = "Python"
+      icon = "devicon-python-plain"
+
+    [[params.home.tech]]
+      label = "Fedora"
+      icon = "devicon-fedora-plain"
+
+    [[params.home.tech]]
+      label = "Debian"
+      icon = "devicon-debian-plain"
+
+    [[params.home.tech]]
+      label = "Linux"
+      icon = "devicon-linux-plain"
+
+    [[params.home.tech]]
+      label = "Docker"
+      icon = "devicon-docker-plain"
+
+    [[params.home.tech]]
+      label = "Podman"
+
+    [[params.home.tech]]
+      label = "Distrobox"
+
+    [[params.home.tech]]
       label = "Blender"
       icon = "devicon-blender-original"
 
@@ -53,44 +79,12 @@ theme = "hugo-minimal-black"
       icon = "devicon-godot-plain"
 
     [[params.home.tech]]
-      label = "Python"
-      icon = "devicon-python-plain"
-
-    [[params.home.tech]]
-      label = "Linux"
-      icon = "devicon-linux-plain"
-
-    [[params.home.tech]]
       label = "Git"
       icon = "devicon-git-plain"
 
     [[params.home.tech]]
       label = "Inkscape"
       icon = "devicon-inkscape-plain"
-
-    [[params.home.tech]]
-      label = "HTML5"
-      icon = "devicon-html5-plain"
-
-    [[params.home.tech]]
-      label = "CSS3"
-      icon = "devicon-css3-plain"
-
-    [[params.home.techReverse]]
-      label = "JavaScript"
-      icon = "devicon-javascript-plain"
-
-    [[params.home.techReverse]]
-      label = "Node.js"
-      icon = "devicon-nodejs-plain"
-
-    [[params.home.techReverse]]
-      label = "Hugo"
-      icon = "devicon-hugo-plain"
-
-    [[params.home.techReverse]]
-      label = "GitHub"
-      icon = "devicon-github-original"
 
     [[params.home.techReverse]]
       label = "GIMP"
@@ -101,20 +95,30 @@ theme = "hugo-minimal-black"
       icon = "devicon-krita-plain"
 
     [[params.home.techReverse]]
+      label = "Hugo"
+      icon = "devicon-hugo-plain"
+
+    [[params.home.techReverse]]
+      label = "GitHub"
+      icon = "devicon-github-original"
+
+    [[params.home.techReverse]]
       label = "Markdown"
       icon = "devicon-markdown-original"
 
     [[params.home.techReverse]]
-      label = "JSON"
-      icon = "devicon-json-plain"
+      label = "HTML5"
+      icon = "devicon-html5-plain"
 
     [[params.home.techReverse]]
-      label = "YAML"
-      icon = "devicon-yaml-plain"
+      label = "CSS3"
+      icon = "devicon-css3-plain"
 
     [[params.home.techReverse]]
-      label = "Docker"
-      icon = "devicon-docker-plain"
+      label = "AI Tools"
+
+    [[params.home.techReverse]]
+      label = "Cybersecurity"
 
   [params.about.alt]
     [[params.about.alt.stats]]
@@ -142,6 +146,18 @@ theme = "hugo-minimal-black"
       icon = "devicon-python-plain"
 
     [[params.about.alt.skills]]
+      label = "Fedora"
+      icon = "devicon-fedora-plain"
+
+    [[params.about.alt.skills]]
+      label = "Debian"
+      icon = "devicon-debian-plain"
+
+    [[params.about.alt.skills]]
+      label = "Docker"
+      icon = "devicon-docker-plain"
+
+    [[params.about.alt.skills]]
       label = "Linux"
       icon = "devicon-linux-plain"
 
@@ -154,23 +170,24 @@ theme = "hugo-minimal-black"
       icon = "devicon-git-plain"
 
   [params.hero]
-    badge = "UI Designer for Games | 3D Artist | Creative with a Touch of Code"
+    badge = "UI Designer for Games | 3D Artist | Learning AI & Cybersecurity"
     title = "CodePolygon."
-    role = "UI/UX for games, 3D art in Blender, vector & logo design."
-    summary = "I design game UIs, model 3D assets in Blender, and craft logos & vectors — all with open-source tools on Linux."
+    role = "Learning Python, AI & cybersecurity. Designing game UIs, 3D art in Blender."
+    summary = "I design game UIs, model 3D assets in Blender, and craft logos & vectors — now diving into Python, AI, and cybersecurity."
     # avatar = "images/avatar.jpg"
-    location = "Linux, Open Source"
-    focus = "Currently focused on AI-powered automation, Godot, and making tech approachable."
+    location = "Fedora • Linux, Open Source"
+    focus = "Currently learning Python, AI tools & cybersecurity, plus building @thesupersudo documentary series."
     available = true
     availableLabel = "Available for work"
 
     nowLabel = "Quick Facts"
     nowIntro = "Right now I'm:"
     now = [
+      "Learning Python, AI & cybersecurity",
       "Designing game UIs & HUDs",
       "Modeling stylized 3D assets in Blender",
       "Building @thesupersudo documentary series",
-      "Exploring AI tools & automation"
+      "Exploring containers (Docker, Podman, Distrobox)"
     ]
 
     [params.hero.primary]
@@ -217,7 +234,7 @@ theme = "hugo-minimal-black"
 
   [[params.social]]
     label = "Email"
-    url = "mailto:goeldabba@gmail.com"
+    url = "mailto:codepolygon@gmail.com"
     icon = "fa-regular fa-envelope"
 
 [menu]
