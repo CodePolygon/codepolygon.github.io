@@ -15,7 +15,7 @@ theme = "hugo-minimal-black"
 
 [params]
   brand = "CodePolygon"
-  description = "Developer portfolio — building AI, automation, and documentary tech."
+  description = "Developer portfolio — building AI, automation, and creative tools."
 
   favicon = "icons/favicon.svg"
   appleTouchIcon = "apple-touch-icon.png"
@@ -176,7 +176,7 @@ theme = "hugo-minimal-black"
     summary = "AI practitioner and cybersecurity learner. I build AI-automated pipelines for creative production with open-source tools on Linux."
     # avatar = "images/avatar.jpg"
     location = "Fedora • Linux, Open Source"
-    focus = "Currently learning Python, AI & cybersecurity, plus building @thesupersudo documentary series."
+    focus = "Currently learning Python, AI & cybersecurity."
     available = true
     availableLabel = "Available for work"
 
@@ -185,7 +185,6 @@ theme = "hugo-minimal-black"
     now = [
       "Learning Python, AI & cybersecurity",
       "Building AI-automated creative pipelines",
-      "Producing @thesupersudo documentary series",
       "Exploring containers (Docker, Podman, Distrobox)"
     ]
 

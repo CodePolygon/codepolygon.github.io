@@ -12,7 +12,7 @@ I use **Python** and AI to drive real work: generating 3D assets in **Blender**,
 
 ### Currently Focused
 
-Learning **artificial intelligence**, **machine learning**, and **cybersecurity**. Building AI-powered automation for creative production, and producing the **@thesupersudo** documentary series ("SUDO OF ___" — power/control angle on tech, AI, money).
+Learning **artificial intelligence**, **machine learning**, and **cybersecurity**. Building AI-powered automation for creative production on open-source tools.
 
 ---
 
@@ -34,18 +34,9 @@ Exploring cybersecurity fundamentals, privacy-respecting tooling, network securi
 
 ---
 
-**Community Builder** — *@thesupersudo YouTube Channel*
-*Ongoing • Online*
-
-Producing "SUDO OF ___" documentary series examining power, control, and technology. AI-assisted research and script generation. 2,500–3,500 word scripts, 4-act narrative structure.
-
-**Technologies:** Python, FFmpeg, AI, OpenMontage, Markdown
-
----
-
 ## My Stack
 
-**AI & Automation:** Python, LM Studio, local models, OmniRoute, AI-driven pipelines
+**AI & Automation:** Python, Gemini, LM Studio, OmniRoute, LiteLLM, Hermes (AI agent), OpenCode, Antigravity — AI-driven workflows end to end
 **Security:** ClamAV, Metadata Cleaner, Flatseal, network tools, privacy-first Linux setup
 **Containers:** Docker, Podman, Distrobox — isolated, reproducible environments
 **Creative (AI-automated):** Blender, Godot, Inkscape, GIMP, Krita — all script-driven
