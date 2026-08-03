@@ -1,55 +1,56 @@
 +++
 title = "About Me"
-subtitle = "UI Designer for Games | 3D Artist | Learning AI & Cybersecurity"
+subtitle = "AI & Cybersecurity | Automating Creative Workflows"
 layout = "about"
 +++
 
-Hey! I'm **CodePolygon**, a digital creator blending art and tech. I design sleek game UIs, model 3D assets in **Blender**, and craft logos and vector graphics — all using **open-source tools** on **Linux**. Right now I'm learning **Python, AI, and cybersecurity**, and I love containers (Docker, Podman, Distrobox). I'm not a full-time coder, but I compile, tweak, and break things until they look amazing.
+I'm **CodePolygon** — an AI practitioner and cybersecurity learner who automates creative workflows with code and open-source tools.
 
-## What I Do
-
-- **UI & HUD Design** for games
-- **Stylized + low-poly 3D assets** (Blender)
-- **Vector art, logos, graphic design**
-- **Learning Python, AI & cybersecurity**
-- **Open-source tools only**, on Linux
+I use **Python** and AI to drive real work: generating 3D assets in **Blender**, building game UIs in **Godot**, designing logos and vector graphics, and running automated video production pipelines. Everything runs on **Fedora Linux**, fully open-source, zero proprietary lock-in.
 
 ---
 
 ### Currently Focused
 
-Right now I'm learning Python and AI tools, exploring cybersecurity, and producing the **@thesupersudo** documentary series ("SUDO OF ___" — power/control angle on tech, AI, money).
+Learning **artificial intelligence**, **machine learning**, and **cybersecurity**. Building AI-powered automation for creative production, and producing the **@thesupersudo** documentary series ("SUDO OF ___" — power/control angle on tech, AI, money).
 
 ---
 
-**Creative Lead** — *Independent / Open Source*
+**AI & Creative Automation** — *Independent / Open Source*
+*Ongoing • Fedora Linux*
+
+Designing and building AI-automated pipelines for 3D asset generation, game UI production, and video editing. Combining Python scripting with Blender, Godot, and open-source tooling to create at scale.
+
+**Technologies:** Python, Blender, Godot, Docker, Podman, Distrobox, FFmpeg
+
+---
+
+**Cybersecurity Research & Learning** — *Active Study*
 *Ongoing • Linux*
 
-Leading creative direction for game UI/UX, 3D asset pipelines, and visual identity systems. All workflows built on Blender, Godot, Inkscape, Krita, GIMP — zero proprietary lock-in.
+Exploring cybersecurity fundamentals, privacy-respecting tooling, network security, and secure systems design. Hands-on with open-source security tools on a daily basis.
 
-**Technologies:** Blender, Godot, Inkscape, Krita, GIMP, Linux, Git
+**Technologies:** ClamAV, Metadata Cleaner, Flatseal, Linux, Networking
 
 ---
 
 **Community Builder** — *@thesupersudo YouTube Channel*
 *Ongoing • Online*
 
-Producing "SUDO OF ___" documentary series examining power, control, and technology. 2,500–3,500 word scripts, 4-act structure, custom research pipeline.
+Producing "SUDO OF ___" documentary series examining power, control, and technology. AI-assisted research and script generation. 2,500–3,500 word scripts, 4-act narrative structure.
 
-**Technologies:** Python, FFmpeg, Blender, YouTube API, Markdown
+**Technologies:** Python, FFmpeg, AI, OpenMontage, Markdown
 
 ---
 
-## My Setup & Tools
+## My Stack
 
-**Linux:** Fedora + Debian, open-source only
-**Containers:** Docker, Podman, Distrobox
-**3D & Design:** Blender, Inkscape, GIMP, Krita
-**Game Dev:** Godot Engine
-**AI:** LM Studio, local models, OmniRoute
-**Video:** FFmpeg, OpenMontage (agentic video production), GPU Screen Recorder
-**Privacy & Security:** Flatseal, Metadata Cleaner, ClamAV
-**Everyday:** LocalSend (file sharing), Tube Converter, Rnote (notes), Spotify
+**AI & Automation:** Python, LM Studio, local models, OmniRoute, AI-driven pipelines
+**Security:** ClamAV, Metadata Cleaner, Flatseal, network tools, privacy-first Linux setup
+**Containers:** Docker, Podman, Distrobox — isolated, reproducible environments
+**Creative (AI-automated):** Blender, Godot, Inkscape, GIMP, Krita — all script-driven
+**Platform:** Fedora Linux, Git, GitHub
+**Video Production:** FFmpeg, OpenMontage, GPU Screen Recorder
 
 ---
 
@@ -60,9 +61,14 @@ Producing "SUDO OF ___" documentary series examining power, control, and technol
 - **YouTube:** [@codepolygon](https://www.youtube.com/@codepolygon)
 - **Reddit:** [u/codepolygon](https://reddit.com/u/codepolygon)
 - **Discord:** [codepolygon](https://discord.com/users/codepolygon)
+- **Mastodon:** [@codepolygon@mastodon.social](https://mastodon.social/@codepolygon)
+- **Bluesky:** [codepolygon](https://bsky.app/profile/codepolygon.bsky.social)
+- **Twitch:** [codepolygon](https://twitch.tv/codepolygon)
+- **Pinterest:** [codepolygon](https://pinterest.com/codepolygon)
+- **Facebook:** [codepolygon](https://facebook.com/codepolygon)
 - **GitHub:** [CodePolygon](https://github.com/CodePolygon)
 - **Email:** [codepolygon@gmail.com](mailto:codepolygon@gmail.com)
 
 ---
 
-*All tools open-source. All workflows transparent. All code on GitHub.*
+*Everything open-source. Everything automated. Everything on GitHub.*

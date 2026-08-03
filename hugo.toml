@@ -170,13 +170,13 @@ theme = "hugo-minimal-black"
       icon = "devicon-git-plain"
 
   [params.hero]
-    badge = "UI Designer for Games | 3D Artist | Learning AI & Cybersecurity"
+    badge = "AI & Cybersecurity | Creative Automation"
     title = "CodePolygon."
-    role = "Learning Python, AI & cybersecurity. Designing game UIs, 3D art in Blender."
-    summary = "I design game UIs, model 3D assets in Blender, and craft logos & vectors — now diving into Python, AI, and cybersecurity."
+    role = "Learning AI & cybersecurity. Automating creative workflows."
+    summary = "AI practitioner and cybersecurity learner. I build AI-automated pipelines for creative production with open-source tools on Linux."
     # avatar = "images/avatar.jpg"
     location = "Fedora • Linux, Open Source"
-    focus = "Currently learning Python, AI tools & cybersecurity, plus building @thesupersudo documentary series."
+    focus = "Currently learning Python, AI & cybersecurity, plus building @thesupersudo documentary series."
     available = true
     availableLabel = "Available for work"
 
@@ -184,9 +184,8 @@ theme = "hugo-minimal-black"
     nowIntro = "Right now I'm:"
     now = [
       "Learning Python, AI & cybersecurity",
-      "Designing game UIs & HUDs",
-      "Modeling stylized 3D assets in Blender",
-      "Building @thesupersudo documentary series",
+      "Building AI-automated creative pipelines",
+      "Producing @thesupersudo documentary series",
       "Exploring containers (Docker, Podman, Distrobox)"
     ]
 
@@ -231,6 +230,31 @@ theme = "hugo-minimal-black"
     label = "Discord"
     url = "https://discord.com/users/codepolygon"
     icon = "fa-brands fa-discord"
+
+  [[params.social]]
+    label = "Mastodon"
+    url = "https://mastodon.social/@codepolygon"
+    icon = "fa-brands fa-mastodon"
+
+  [[params.social]]
+    label = "Bluesky"
+    url = "https://bsky.app/profile/codepolygon.bsky.social"
+    icon = "fa-brands fa-bluesky"
+
+  [[params.social]]
+    label = "Twitch"
+    url = "https://twitch.tv/codepolygon"
+    icon = "fa-brands fa-twitch"
+
+  [[params.social]]
+    label = "Pinterest"
+    url = "https://pinterest.com/codepolygon"
+    icon = "fa-brands fa-pinterest"
+
+  [[params.social]]
+    label = "Facebook"
+    url = "https://facebook.com/codepolygon"
+    icon = "fa-brands fa-facebook-f"
 
   [[params.social]]
     label = "Email"
