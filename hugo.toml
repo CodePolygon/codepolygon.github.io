@@ -57,12 +57,8 @@ theme = "hugo-minimal-black"
       icon = "devicon-linux-plain"
 
     [[params.home.tech]]
-      label = "Docker"
+      label = "Docker & Podman"
       icon = "devicon-docker-plain"
-
-    [[params.home.tech]]
-      label = "Podman"
-      icon = "devicon-podman-plain"
 
     [[params.home.tech]]
       label = "Blender"
@@ -109,8 +105,12 @@ theme = "hugo-minimal-black"
       icon = "fa-solid fa-microchip"
 
     [[params.home.techReverse]]
-      label = "Gemini"
+      label = "Google AI Studio"
       icon = "fa-solid fa-sparkles"
+
+    [[params.home.techReverse]]
+      label = "Colab"
+      icon = "fa-solid fa-code"
 
     [[params.home.techReverse]]
       label = "LM Studio"
