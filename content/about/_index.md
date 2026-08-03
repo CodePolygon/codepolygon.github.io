@@ -1,111 +1,66 @@
 +++
 title = "About Me"
-subtitle = "Software Engineer | Full Stack Developer | Open Source Enthusiast"
+subtitle = "UI Designer for Games | 3D Artist | Open-Source Creative"
 layout = "about"
 +++
 
-I'm a passionate software engineer with expertise in building scalable web applications and developer tools. With a focus on clean code, performance optimization, and user experience, I help teams ship products that users love.
+Hey! I'm **CodePolygon**, a digital creator blending art and tech. I design sleek game UIs, model 3D assets in **Blender**, and craft logos and vector graphics — all using **open-source tools** on **Linux**. I'm not a full-time coder, but I compile, tweak, and break things until they look amazing.
 
 ## What I Do
 
-I specialize in full-stack development with a keen interest in:
-
-- **Backend Engineering** — Building robust APIs and microservices with modern frameworks
-- **Frontend Development** — Creating responsive, accessible user interfaces
-- **DevOps & Infrastructure** — Container orchestration, CI/CD, and cloud platforms
-- **Open Source** — Contributing to and maintaining open-source projects
-
-## Timeline Demonstration
-
-> This page demonstrates the **standard about layout** with a timeline feature. Use horizontal rules (`---`) to separate timeline entries. Each section becomes a card in the timeline visualization.
-
-### Current Focus
-
-Right now, I'm exploring minimal design patterns, modern web frameworks, and building tools that make developers' lives easier. I believe in writing code that is simple, maintainable, and well-documented.
+- **UI & HUD Design** for games
+- **Stylized + low-poly 3D assets** (Blender)
+- **Vector art, logos, graphic design**
+- **Code compilation + light scripting**
+- **Open-source tools only**, on Linux
 
 ---
 
-**Senior Software Engineer** — [Tech Company](https://example.com)
-*January 2022 – Present • Remote*
+### Currently Focused
 
-Leading the development of cloud-native applications using modern frameworks and best practices. Mentoring junior developers and driving technical decisions for large-scale projects.
-
-Key achievements:
-- Architected microservices platform serving 1M+ users
-- Reduced deployment time by 60% through CI/CD improvements
-- Led migration from monolith to distributed architecture
-
-**Technologies:** React, Node.js, PostgreSQL, Docker, Kubernetes, AWS
+Right now I'm exploring AI-powered automation, building developer tools that actually work, and producing the **@thesupersudo** documentary series ("SUDO OF ___" — power/control angle on tech, AI, money).
 
 ---
 
-**Full Stack Developer** — Startup Inc.
-*March 2020 – December 2021 • San Francisco, CA*
+**Creative Lead** — *Independent / Open Source*
+*Ongoing • Linux*
 
-Developed and maintained multiple web applications from concept to production. Collaborated with cross-functional teams to deliver features that increased user engagement by 40%.
+Leading creative direction for game UI/UX, 3D asset pipelines, and visual identity systems. All workflows built on Blender, Godot, Inkscape, Krita, GIMP — zero proprietary lock-in.
 
-- Built RESTful APIs serving 500K+ daily requests
-- Implemented real-time features using WebSockets
-- Optimized database queries reducing response time by 50%
-
-**Technologies:** Python, Django, Vue.js, Redis, MySQL, GCP
+**Technologies:** Blender, Godot, Inkscape, Krita, GIMP, Linux, Git
 
 ---
 
-**Software Engineer** — Digital Solutions Corp.
-*June 2018 – February 2020 • New York, NY*
+**Community Builder** — *@thesupersudo YouTube Channel*
+*Ongoing • Online*
 
-Worked on enterprise solutions for Fortune 500 clients. Focused on backend development, database design, and system integration.
+Producing "SUDO OF ___" documentary series examining power, control, and technology. 2,500–3,500 word scripts, 4-act structure, custom research pipeline.
 
-- Developed internal tools that saved 200+ hours monthly
-- Integrated third-party APIs for payment processing
-- Maintained legacy systems while modernizing architecture
-
-**Technologies:** Java, Spring Boot, Oracle DB, Angular, Jenkins
+**Technologies:** Python, FFmpeg, Blender, YouTube API, Markdown
 
 ---
 
-**Junior Developer** — Code Academy
-*January 2017 – May 2018 • Boston, MA*
+## Tools & Tech Stack
 
-Started my professional journey building web applications and learning industry best practices. Contributed to various client projects and internal tooling.
-
-- Developed responsive web interfaces
-- Wrote automated tests achieving 90%+ coverage
-- Participated in code reviews and agile ceremonies
-
-**Technologies:** JavaScript, PHP, Laravel, MySQL, Git
+**3D & Design:** Blender, Inkscape, GIMP, Krita
+**Game Dev:** Godot Engine
+**Platform:** Linux (Fedora)
+**Version Control:** Git / GitHub
+**Video:** FFmpeg, OpenMontage (agentic video production)
+**Automation:** Python, Hugo, custom AI tooling
 
 ---
 
-## Education & Certifications
+## Let's Connect
 
-**Bachelor of Science in Computer Science**
-University of Technology • 2013-2017
-
-**Certifications:**
-- AWS Certified Solutions Architect
-- Google Cloud Professional Developer
-- Certified Kubernetes Administrator (CKA)
+- **X/Twitter:** [@codepolygon](https://x.com/codepolygon)
+- **Instagram:** [@codepolygon](https://www.instagram.com/codepolygon)
+- **YouTube:** [@codepolygon](https://www.youtube.com/@codepolygon)
+- **Reddit:** [u/codepolygon](https://reddit.com/u/codepolygon)
+- **Discord:** [codepolygon](https://discord.com/users/codepolygon)
+- **GitHub:** [CodePolygon](https://github.com/CodePolygon)
+- **Email:** [goeldabba@gmail.com](mailto:goeldabba@gmail.com)
 
 ---
 
-## How This Layout Works
-
-This about page uses the **timeline layout**. Here's how to customize it:
-
-1. Set `layout = "about"` in the frontmatter
-2. Write your introduction before the first `---` separator
-3. Each section after `---` becomes a timeline card
-4. Use markdown formatting: **bold** for job titles, *italic* for dates
-5. Add links using `[text](url)` syntax
-6. Timeline items appear in chronological order (newest first)
-
-### Features Demonstrated
-
-- ✅ Hero section with avatar and subtitle
-- ✅ Timeline visualization with markers and cards
-- ✅ Markdown content with formatting
-- ✅ Links and emphasis
-- ✅ Responsive design
-- ✅ Social links in footer
+*All tools open-source. All workflows transparent. All code on GitHub.*

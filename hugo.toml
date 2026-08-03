@@ -24,8 +24,8 @@ theme = "hugo-minimal-black"
   blogIntro = ""
 
   [params.manifest]
-    themeColor = "#a855f7"
-    backgroundColor = "#000000"
+    themeColor = "#E64B3D"
+    backgroundColor = "#28282E"
     categories = ["blog", "portfolio", "developer"]
 
   [params.theme]
@@ -45,24 +45,28 @@ theme = "hugo-minimal-black"
     techMarqueeLabel = "Experienced In"
 
     [[params.home.tech]]
-      label = "Python"
-      icon = "devicon-python-plain"
+      label = "Blender"
+      icon = "devicon-blender-original"
 
     [[params.home.tech]]
-      label = "JavaScript"
-      icon = "devicon-javascript-plain"
+      label = "Godot"
+      icon = "devicon-godot-plain"
+
+    [[params.home.tech]]
+      label = "Python"
+      icon = "devicon-python-plain"
 
     [[params.home.tech]]
       label = "Linux"
       icon = "devicon-linux-plain"
 
     [[params.home.tech]]
-      label = "Docker"
-      icon = "devicon-docker-plain"
-
-    [[params.home.tech]]
       label = "Git"
       icon = "devicon-git-plain"
+
+    [[params.home.tech]]
+      label = "Inkscape"
+      icon = "devicon-inkscape-plain"
 
     [[params.home.tech]]
       label = "HTML5"
@@ -71,6 +75,30 @@ theme = "hugo-minimal-black"
     [[params.home.tech]]
       label = "CSS3"
       icon = "devicon-css3-plain"
+
+    [[params.home.techReverse]]
+      label = "JavaScript"
+      icon = "devicon-javascript-plain"
+
+    [[params.home.techReverse]]
+      label = "Node.js"
+      icon = "devicon-nodejs-plain"
+
+    [[params.home.techReverse]]
+      label = "Hugo"
+      icon = "devicon-hugo-plain"
+
+    [[params.home.techReverse]]
+      label = "GitHub"
+      icon = "devicon-github-original"
+
+    [[params.home.techReverse]]
+      label = "GIMP"
+      icon = "devicon-gimp-plain"
+
+    [[params.home.techReverse]]
+      label = "Krita"
+      icon = "devicon-krita-plain"
 
     [[params.home.techReverse]]
       label = "Markdown"
@@ -85,71 +113,64 @@ theme = "hugo-minimal-black"
       icon = "devicon-yaml-plain"
 
     [[params.home.techReverse]]
-      label = "Node.js"
-      icon = "devicon-nodejs-plain"
-
-    [[params.home.techReverse]]
-      label = "Hugo"
-      icon = "devicon-hugo-plain"
-
-    [[params.home.techReverse]]
-      label = "GitHub"
-      icon = "devicon-github-original"
+      label = "Docker"
+      icon = "devicon-docker-plain"
 
   [params.about.alt]
     [[params.about.alt.stats]]
       value = "∞"
-      label = "Hours Spent"
+      label = "Hours in Blender"
 
     [[params.about.alt.stats]]
-      value = "∞"
-      label = "Lines of Code"
+      value = "100%"
+      label = "Open Source"
 
     [[params.about.alt.stats]]
       value = "∞"
       label = "Cups of Coffee"
 
     [[params.about.alt.skills]]
-      label = "Python"
-      icon = "devicon-python-plain"
+      label = "Blender"
+      icon = "devicon-blender-original"
 
     [[params.about.alt.skills]]
-      label = "JavaScript"
-      icon = "devicon-javascript-plain"
+      label = "Godot"
+      icon = "devicon-godot-plain"
+
+    [[params.about.alt.skills]]
+      label = "Python"
+      icon = "devicon-python-plain"
 
     [[params.about.alt.skills]]
       label = "Linux"
       icon = "devicon-linux-plain"
 
     [[params.about.alt.skills]]
-      label = "Docker"
-      icon = "devicon-docker-plain"
+      label = "Inkscape"
+      icon = "devicon-inkscape-plain"
 
     [[params.about.alt.skills]]
       label = "Git"
       icon = "devicon-git-plain"
 
-    [[params.about.alt.skills]]
-      label = "Node.js"
-      icon = "devicon-nodejs-plain"
-
   [params.hero]
-    badge = "Developer & Builder"
+    badge = "UI Designer for Games | 3D Artist | Creative with a Touch of Code"
     title = "CodePolygon."
-    role = "Developer, builder, creator."
-    summary = "I build things — code, automation, tools, stories."
+    role = "UI/UX for games, 3D art in Blender, vector & logo design."
+    summary = "I design game UIs, model 3D assets in Blender, and craft logos & vectors — all with open-source tools on Linux."
     # avatar = "images/avatar.jpg"
-    location = "Earth, 2026"
-    focus = "Currently focused on AI tools, automation, and making tech approachable."
+    location = "Linux, Open Source"
+    focus = "Currently focused on AI-powered automation, Godot, and making tech approachable."
     available = true
-    availableLabel = "Available"
+    availableLabel = "Available for work"
 
     nowLabel = "Quick Facts"
     nowIntro = "Right now I'm:"
     now = [
-      "Building AI-powered automation",
-      "Making developer tools that actually work",
-      "Turning complex ideas into simple things"
+      "Designing game UIs & HUDs",
+      "Modeling stylized 3D assets in Blender",
+      "Building @thesupersudo documentary series",
+      "Exploring AI tools & automation"
     ]
 
     [params.hero.primary]
@@ -168,6 +189,31 @@ theme = "hugo-minimal-black"
     label = "GitHub"
     url = "https://github.com/CodePolygon"
     icon = "fa-brands fa-github"
+
+  [[params.social]]
+    label = "X"
+    url = "https://x.com/codepolygon"
+    icon = "fa-brands fa-x-twitter"
+
+  [[params.social]]
+    label = "Instagram"
+    url = "https://www.instagram.com/codepolygon"
+    icon = "fa-brands fa-instagram"
+
+  [[params.social]]
+    label = "YouTube"
+    url = "https://www.youtube.com/@codepolygon"
+    icon = "fa-brands fa-youtube"
+
+  [[params.social]]
+    label = "Reddit"
+    url = "https://reddit.com/u/codepolygon"
+    icon = "fa-brands fa-reddit"
+
+  [[params.social]]
+    label = "Discord"
+    url = "https://discord.com/users/codepolygon"
+    icon = "fa-brands fa-discord"
 
   [[params.social]]
     label = "Email"
