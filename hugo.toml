@@ -45,10 +45,6 @@ theme = "hugo-minimal-black"
     techMarqueeLabel = "Experienced In"
 
     [[params.home.tech]]
-      label = "Python"
-      icon = "devicon-python-plain"
-
-    [[params.home.tech]]
       label = "Fedora"
       icon = "devicon-fedora-plain"
 
@@ -87,14 +83,6 @@ theme = "hugo-minimal-black"
       icon = "devicon-inkscape-plain"
 
     [[params.home.techReverse]]
-      label = "GIMP"
-      icon = "devicon-gimp-plain"
-
-    [[params.home.techReverse]]
-      label = "Krita"
-      icon = "devicon-krita-plain"
-
-    [[params.home.techReverse]]
       label = "Hugo"
       icon = "devicon-hugo-plain"
 
@@ -115,31 +103,40 @@ theme = "hugo-minimal-black"
       icon = "devicon-css3-plain"
 
     [[params.home.techReverse]]
-      label = "AI Tools"
+      label = "Cybersecurity"
+      icon = "fa-solid fa-shield-halved"
 
     [[params.home.techReverse]]
-      label = "Cybersecurity"
+      label = "AI Tools"
+      icon = "fa-solid fa-microchip"
 
-    [[params.home.techThird]]
+    [[params.home.techReverse]]
       label = "Gemini"
+      icon = "fa-solid fa-sparkles"
 
-    [[params.home.techThird]]
+    [[params.home.techReverse]]
       label = "LM Studio"
+      icon = "fa-solid fa-brain"
 
-    [[params.home.techThird]]
+    [[params.home.techReverse]]
       label = "OmniRoute"
+      icon = "fa-solid fa-route"
 
-    [[params.home.techThird]]
+    [[params.home.techReverse]]
       label = "LiteLLM"
+      icon = "fa-solid fa-server"
 
-    [[params.home.techThird]]
+    [[params.home.techReverse]]
       label = "Hermes"
+      icon = "fa-solid fa-robot"
 
-    [[params.home.techThird]]
+    [[params.home.techReverse]]
       label = "OpenCode"
+      icon = "fa-solid fa-terminal"
 
-    [[params.home.techThird]]
+    [[params.home.techReverse]]
       label = "Antigravity"
+      icon = "fa-solid fa-rocket"
 
   [params.about.alt]
     [[params.about.alt.stats]]
