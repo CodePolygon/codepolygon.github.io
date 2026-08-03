@@ -54,3 +54,12 @@ html[data-theme="light"] .markdown-body :not(pre) > code {
 
 /* --- Any leftover raw purple utilities --- */
 [class*="bg-"]:where(.text-7c3aed, .text-c084fc) { color: #e64b3d !important; }
+
+/* --- Third tech marquee row (AI tools) --- */
+.tech-strip--wide .tech-strip-track--tertiary {
+  animation-duration: 55s;
+}
+
+.tech-strip--compact .tech-strip-track--tertiary {
+  animation-duration: 55s;
+}

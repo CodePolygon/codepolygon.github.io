@@ -120,6 +120,27 @@ theme = "hugo-minimal-black"
     [[params.home.techReverse]]
       label = "Cybersecurity"
 
+    [[params.home.techThird]]
+      label = "Gemini"
+
+    [[params.home.techThird]]
+      label = "LM Studio"
+
+    [[params.home.techThird]]
+      label = "OmniRoute"
+
+    [[params.home.techThird]]
+      label = "LiteLLM"
+
+    [[params.home.techThird]]
+      label = "Hermes"
+
+    [[params.home.techThird]]
+      label = "OpenCode"
+
+    [[params.home.techThird]]
+      label = "Antigravity"
+
   [params.about.alt]
     [[params.about.alt.stats]]
       value = "∞"
